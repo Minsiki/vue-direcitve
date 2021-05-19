@@ -1,14 +1,13 @@
 <template>
-  <div>
-    asdasd
+  <div id="app">
+    <div>
+      <router-link to="/bind">Bind</router-link> |
+      <router-link to="/on">On</router-link> |
+      <router-link to="/if">If</router-link> | 
+      <router-link to="/show">Show</router-link> |
+      <router-link to="/for">For</router-link> | 
+      <router-link to="/model">Model</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'App',
-}
-</script>
-
-<style>
-</style>
