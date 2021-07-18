@@ -7,6 +7,8 @@
       <router-link to="/show">Show</router-link> |
       <router-link to="/for">For</router-link> | 
       <router-link to="/model">Model</router-link>
+      <router-link to="/once">Once</router-link>
+      <router-link to="/pre">Pre</router-link>
     </div>
     <router-view/>
   </div>

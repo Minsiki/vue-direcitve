@@ -28,7 +28,7 @@ export default {
     data: () => ({
         msg: "",
         checked: true,
-        checkValues: [],
+        checkValues: ['1', '2'],
         selected: "",
         selectValue: []
 

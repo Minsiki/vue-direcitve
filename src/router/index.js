@@ -7,6 +7,8 @@ import If from '../components/If.vue'
 import Show from '../components/Show.vue'
 import For from '../components/For.vue'
 import Model from '../components/Model.vue'
+import Once from '../components/Once.vue'
+import Pre from '../components/Pre.vue'
 
 Vue.use(VueRouter)
 
@@ -39,6 +41,14 @@ const routes = [
   path: '/model',
   name: 'Model',
   component: Model
+}, {
+  path: '/once',
+  name: 'Once',
+  component: Once
+}, {
+  path: '/pre',
+  name: 'Pre',
+  component: Pre
 },
 ]
 
